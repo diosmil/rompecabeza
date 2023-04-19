@@ -1,0 +1,89 @@
+
+div#content{margin-top:10px;}
+
+div#conf{padding-bottom:10px;}
+
+table {
+  border: 2px solid #444444;
+  box-shadow: 1px 1px 8px #333333,-1px -1px 8px #333333, 1px -1px 8px #333333, -1px 1px 8px #333333;
+  -webkit-box-shadow: 1px 1px 8px #333333,-1px -1px 8px #333333, 1px -1px 8px #333333, -1px 1px 8px #333333;
+  border-collapse: collapse;
+}
+
+td.pieza {
+  background: url(https://images6.fanpop.com/image/photos/43600000/asta-black-clover-43684549-300-300.jpg);
+  transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+div#titulo {
+  color: #444444;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px 8px #f5f9fa, -1px -1px 8px #33b4e7, 1px -1px 8px #fafbfc, -1px 1px 8px #33b4e7;
+}
+div#titulo2 {
+  color: #292525;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px #f5f9fa, -1px -1px 5px #33b4e7, 1px -1px 5px #fafbfc, -1px 1px 5px #33b4e7;
+}
+
+body {
+  background: #000000;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+  span {
+    color: #4D4D4D;
+  }
+  
+  div#content {
+    margin-top: 10px;
+  }
+  
+  div#conf {
+    padding-bottom: 10px;
+  }
+  
+  select#piezas {
+    font-size: 16px;
+    color: #4D4D4D;
+    border-radius: 5px;
+    border: 2px solid #AEB7BF;
+    padding: 5px;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  select#piezas:focus {
+    outline: none;
+    border: 2px solid #00BFFF;
+  }
+  
+  input#barajar {
+    background-color: #094c74;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  input#barajar:hover {
+    background-color: #31c514;
+  }
+  #referencia {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
