@@ -143,7 +143,6 @@ var rompecabezas = {
 	}
 };
 
-
 window.onload = function(){
 	rompecabezas._mostrar();
   rompecabezas._barajar();
